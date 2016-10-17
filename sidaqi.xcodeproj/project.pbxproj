@@ -15,6 +15,7 @@
 		BD531D291DB4941E00C4A6DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD531D271DB4941E00C4A6DF /* LaunchScreen.storyboard */; };
 		BD531D341DB4941E00C4A6DF /* sidaqiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD531D331DB4941E00C4A6DF /* sidaqiTests.m */; };
 		BD531D3F1DB4941E00C4A6DF /* sidaqiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD531D3E1DB4941E00C4A6DF /* sidaqiUITests.m */; };
+		BD531D4E1DB4945900C4A6DF /* revolView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD531D4D1DB4945900C4A6DF /* revolView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BD531D3A1DB4941E00C4A6DF /* sidaqiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sidaqiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD531D3E1DB4941E00C4A6DF /* sidaqiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sidaqiUITests.m; sourceTree = "<group>"; };
 		BD531D401DB4941E00C4A6DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD531D4C1DB4945900C4A6DF /* revolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = revolView.h; sourceTree = "<group>"; };
+		BD531D4D1DB4945900C4A6DF /* revolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = revolView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				BD531D1D1DB4941D00C4A6DF /* AppDelegate.m */,
 				BD531D1F1DB4941D00C4A6DF /* ViewController.h */,
 				BD531D201DB4941D00C4A6DF /* ViewController.m */,
+				BD531D4C1DB4945900C4A6DF /* revolView.h */,
+				BD531D4D1DB4945900C4A6DF /* revolView.m */,
 				BD531D221DB4941E00C4A6DF /* Main.storyboard */,
 				BD531D251DB4941E00C4A6DF /* Assets.xcassets */,
 				BD531D271DB4941E00C4A6DF /* LaunchScreen.storyboard */,
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD531D211DB4941D00C4A6DF /* ViewController.m in Sources */,
+				BD531D4E1DB4945900C4A6DF /* revolView.m in Sources */,
 				BD531D1E1DB4941D00C4A6DF /* AppDelegate.m in Sources */,
 				BD531D1B1DB4941D00C4A6DF /* main.m in Sources */,
 			);
